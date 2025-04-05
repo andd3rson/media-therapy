@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ 
+nav {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000 !important;
+}
+
+#home { 
+    min-height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.parallax {
+    /* background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center ; */
+    background: url('./assets/dando-maos.jpg') no-repeat center top ;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.parallax .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+#sobre {
+    background: url('./assets/sobre.jpeg') no-repeat center top;
+    background-size: cover;
+    opacity: 0.96;
+}
+
+ #sobre, #atendimento, #contato {
+    /* background: white; */
+    min-height: 50vh;
+    color: black;
+    font-size: 1.1em;
+}
+p{
+    text-indent: 50px;
+}
+    
